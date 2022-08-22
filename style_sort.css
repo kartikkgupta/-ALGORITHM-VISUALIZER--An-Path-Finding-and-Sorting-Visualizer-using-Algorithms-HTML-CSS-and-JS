@@ -1,0 +1,141 @@
+.ArrayBox {
+    background: transparent;                /*designs the arrays*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 400px;
+    padding: 10px;
+    transform-origin: center center;
+    transform: rotateX(180deg);
+}
+
+.show-box {                                     /* boundary outside the array box */
+    padding-top: 10px;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    box-shadow: 4px 4px 5px #5a5c5e, -4px -4px 5px white;
+}
+button {                            /* start and reload button */
+    padding: 5px;
+    width: 100px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow:
+      3px 3px 5px #5A5C5E,
+      -3px -3px 5px #ffffff;
+    background: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  select {                                              /* select tray in which we have to select bubble sort, etc. */
+    background: transparent;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow:
+      3px 3px 5px #5A5C5E,
+      -3px -3px 5px #ffffff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    -webkit-appearance: none !important;
+  }
+  
+  select:hover,
+  button:hover {
+    box-shadow:
+      2px 2px 3px #5A5C5E,
+      -2px -2px 3px #ffffff;
+  }
+  
+  .flex-labels {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .flex-label-items {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+  }
+  
+  .flex-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    border: none;
+  }
+  
+  .flex-button-items {
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+    border: none;
+  }
+  
+
+  /* ---------------------Slider CSS--------------------------- */
+   .slidecontainer {
+    width: 50%;
+  } 
+  
+  .slider {
+    -webkit-appearance: none;
+    min-width: 80px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow:
+      inset 3px 3px 4px #5A5C5E,
+      inset -3px -3px 4px white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  } 
+   
+  .slider:hover {
+    box-shadow:
+      inset 5px 5px 5px #5A5C5E,
+      inset -5px -5px 5px white;
+  }
+  
+  .slider::-moz-range-thumb,
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 30px;
+    background: #E0E5EC;
+    border: none;
+    box-shadow:
+      4px 4px 5px #5A5C5E,
+      -2px -2px 5px white;
+    cursor: pointer;
+  }
+  
